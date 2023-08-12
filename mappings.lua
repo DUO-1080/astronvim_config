@@ -30,11 +30,15 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>wa"] = { ":wa<cr>", desc = "Save All" },
     -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
+    ["<C-\\>"] = { "<cmd>ToggleTerm<cr>", desc = "open term" },
+    ["<leader>lS"] = { ":TagbarToggle<cr>", desc = "Open Tagbar" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+    ["<C-\\>"] = { "<cmd>ToggleTerm<cr>", desc = "open term" },
   },
 }
