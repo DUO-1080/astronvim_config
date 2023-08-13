@@ -35,10 +35,19 @@ return {
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     ["<C-\\>"] = { "<cmd>ToggleTerm<cr>", desc = "open term" },
     ["<leader>lS"] = { ":TagbarToggle<cr>", desc = "Open Tagbar" },
+    ["<A-j>"] = { ":m .+1<CR>==", desc = "Move Line Up" },
+    ["<A-k>"] = { ":m .-2<CR>==", desc = "Move Line Down" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
     ["<C-\\>"] = { "<cmd>ToggleTerm<cr>", desc = "open term" },
+  },
+  i = {
+    ["<C-\\>"] = { "<ESC><cmd>ToggleTerm<cr>", desc = "open term" },
+    ["<S-CR>"] = { "<ESC>o", desc = "Next Line" },
+    ["<C-S-CR>"] = { "<ESC>$a;", desc = "Auto Complete Statement" },
+    ["<A-j>"] = { "<ESC>:m .+1<CR>==", desc = "Move Line Up" },
+    ["<A-k>"] = { "<ESC>:m .-2<CR>==", desc = "Move Line Down" },
   },
 }
