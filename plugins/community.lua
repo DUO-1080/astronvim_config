@@ -9,5 +9,6 @@ return {
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
 }
