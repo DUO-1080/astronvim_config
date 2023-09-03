@@ -52,7 +52,7 @@ return {
     ["<C-\\>"] = { "<ESC><cmd>ToggleTerm<cr>", desc = "open term" },
     ["<S-CR>"] = { "<ESC>o<c-g>u", desc = "Next Line" },
     ["<CR>"] = { "<c-g>u<cr>", desc = "Next Line" },
-    ["<C-S-CR>"] = { "<ESC>$a;<c-g>u<ESC>zzi", desc = "Auto Complete Statement" },
+    ["<C-S-CR>"] = { "<ESC>$a;<c-g>u<ESC>zza", desc = "Auto Complete Statement" },
     ["<A-j>"] = { "<ESC>:m .+1<CR>==", desc = "Move Line Up" },
     ["<A-k>"] = { "<ESC>:m .-2<CR>==", desc = "Move Line Down" },
     ["jk"] = { "<ESC>^zz", desc = "ESC and center" },
