@@ -8,7 +8,9 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.git.git-blame-nvim" },
-  { import = "astrocommunity.scrolling.vim-smoothie" },
+  -- { import = "astrocommunity.scrolling.vim-smoothie" },
+  { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.scrolling.mini-animate" },
   -- { import = "astrocommunity.scrolling.neoscroll-nvim" },
   -- { import = "astrocommunity.scrolling.satellite-nvim" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
@@ -16,4 +18,6 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.utility.neodim" },
+  { import = "astrocommunity.color.vim-highlighter" },
+  { import = "astrocommunity.completion.codeium-vim" },
 }
