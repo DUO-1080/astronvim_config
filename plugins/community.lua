@@ -6,7 +6,9 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.git.git-blame-nvim" },
   -- { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
