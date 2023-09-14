@@ -30,8 +30,8 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
-    ["<leader>wa"] = { ":wa<cr>zt:e<cr>", desc = "Save All" },
-    ["<leader>w"] = { ":w<cr>zt:e<cr>", desc = "Save File" },
+    ["<leader>wa"] = { ":wa<cr>zt", desc = "Save All" },
+    ["<leader>w"] = { ":w<cr>zt", desc = "Save File" },
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     ["<S-CR>"] = { "<ESC>o<c-g>u", desc = "Next Line" },
