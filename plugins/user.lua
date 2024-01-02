@@ -25,4 +25,9 @@ return {
     "preservim/tagbar",
     event = "BufRead",
   },
+  {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    opts = {},
+  },
 }
